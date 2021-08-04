@@ -8,6 +8,13 @@
   text-align: center;
   margin: 0px;
 }
+.header2{
+  background-color: rgb(190, 187, 0);
+  color: white;
+  padding: 10px;
+  text-align: center;
+  margin: 0px;
+}
 body{
   margin: 0px;
   padding: 0px;

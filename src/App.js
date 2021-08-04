@@ -1,14 +1,23 @@
-import Header from "./components/Header"
-import Content from "./components/Content"
-import "./App.css"
+import React, { useState } from "react";
+import Header from "./components/Header";
+import Header2 from "./components/Header2";
+import Content from "./components/Content";
+import "./App.css";
 
 function App() {
+  const [header, setHeader] = useState("green");
 
+  const changeHeader = () => {
+    setHeader("green view");
+  };
   return (
     <div>
       <Header />
-      <Content />
+      <Header2 />
 
+      <button onClick={changeHeader}>change name</button>
+      <p>{header}</p>
+      <Content />
     </div>
   );
 }
