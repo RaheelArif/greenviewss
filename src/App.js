@@ -14,7 +14,6 @@ function App() {
     <div>
       <Header />
       <Header2 />
-
       <button onClick={changeHeader}>change name</button>
       <p>{header}</p>
       <Content />
