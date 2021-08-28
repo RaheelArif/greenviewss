@@ -1,21 +1,20 @@
-import Header from "./components/Header";
-import Header2 from "./components/Header2";
-import Content from "./components/Content";
+import React from "react";
+import { Link, BrowserRouter, Switch, Route } from "react-router-dom";
+
+import Students from "./Pages/Students";
+import Navbar from "./Components/Navbar";
 import "./App.css";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
-import Login from "./components/login"
-function App() {
+export default function App() {
   return (
-    <BrowserRouter>
-      <div>
-        <Header />
+    <div>
+      <BrowserRouter>
+        <Navbar />
         <Switch>
-          <Route exact path="/" component={Content} />
-          <Route path="/login" component={Login} />
+          <Route path="/students">
+            <Students />
+          </Route>
         </Switch>
-      </div>
-    </BrowserRouter>
+      </BrowserRouter>
+    </div>
   );
 }
-
-export default App;

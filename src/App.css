@@ -1,42 +1,5 @@
-.heading{
-  color: red;
-}
-.header{
-  background-color: royalblue;
+.nav-link-p.MuiTypography-root {
+  margin-left: 20px;
   color: white;
-  padding: 10px;
-  text-align: center;
-  margin: 0px;
-}
-.header2{
-  background-color: rgb(190, 187, 0);
-  color: white;
-  padding: 10px;
-  text-align: center;
-  margin: 0px;
-}
-body{
-  margin: 0px;
-  padding: 0px;
-}
-.s-div-c{
-  border: 1px solid steelblue;
-  padding: 10px;
-  margin: 20px;
-  width: 300px;
-  display: flex;
-  flex-direction: column;
-}
-.content-main-c{
-  display: flex;
-}
-.s-div-c input{
-  margin-bottom: 10px;
-}
-.s-div-c button{
- width: 100px;
-}
-.header b{
-  margin: 0 20px;
-  cursor: pointer;
+  text-decoration: none !important;
 }
